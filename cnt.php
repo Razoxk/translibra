@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Linkweb - Responsive HTML5 Template</title>  
+    <title>Translibra</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icono.PNG" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -39,86 +39,16 @@
 <body>
 
     <!-- LOADER -->
-    <div id="preloader">
-        <div class="loader">
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__ball"></div>
-		</div>
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-    
-	<div class="top-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<div class="right-top">
-						<div class="social-box">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
-							<ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<div class="left-top">
-						<div class="email-box">
-							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> youremail@gmail.com</a>
-						</div>
-						<div class="phone-box">
-							<a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> +1 234 567 890</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-    <header class="header header_style_01">
-        <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <div class="navbar-header">
-                    
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image"></a>
-					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About us</a></li>
-                        <li><a href="services.html">Our Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-						<li><a class="active" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-   	<div class="banner-area banner-bg-1">
+   
+<?php
+include ("navbar.php");
+?>
+    <div class="banner-area banner-bg-1">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="banner">
-						<h2><span>Contact Us</span></h2>
-						<ul class="page-title-link">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Pricing</a></li>
-						</ul>
+						<h2><span>Contacto</span></h2>
 					</div>
 				</div>
 			</div>
@@ -132,31 +62,18 @@
                 <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>We have million of website owners who happy to work with us!</p>
             </div><!-- end title -->
 
+            
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
-                            <fieldset class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
-                                </div>
-                                <div class="text-center cont-btn">
-                                    <button type="submit" value="SEND" id="submit" class="btn11"><span>Submit</span></button>
-                                </div>
-                            </fieldset>
+                        <form id="contacto-form" method="POST" action="mailler.php">
+                            <input type="text" class="form-control" name="txtnombre"placeholder="Nombre (*)">
+							<input type="text" class="form-control" name="txtcorreo" placeholder="Correo (*)">
+							<input type="text" class="form-control" name="txtnumero" placeholder="Telefono">
+							<textarea class="form-control" rows="3" name="txtmensaje" placeholder="Mensaje (*)"></textarea>
+							<h3>(*) Campos Obligatorios</h3>
+                            <button class="btn btn-danger" type="submit" onclick='alert("Hemos recibido su mensaje. Le contactaremos a la brevedad.")'>Enviar</button><br><br>
                         </form>
                     </div>
                 </div><!-- end col -->

@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Linkweb - Responsive HTML5 Template</title>  
+    <title>Translibra</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icono.PNG" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -51,62 +51,12 @@
     </div><!-- end loader -->
     <!-- END LOADER -->
     
-	<div class="top-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<div class="right-top">
-						<div class="social-box">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
-							<ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<div class="left-top">
-						<div class="email-box">
-							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> youremail@gmail.com</a>
-						</div>
-						<div class="phone-box">
-							<a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> +1 234 567 890</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-    <header class="header header_style_01">
-        <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image"></a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About us</a></li>
-                        <li><a href="services.html">Our Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-						<li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+	
+    <?php
+    
+        include ("navbar.php");
+
+    ?>
 	
 	<div class="slider-area">
 		<div class="slider-wrapper owl-carousel">
@@ -116,11 +66,11 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>Linkweb</span> Web Agency</h1>
-									<h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2>
+									<h1 class="homepage-three-title">Bienvenido a <span>TransLibra </span></h1>
+									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2> -->
 									<div class="slider-content-btn">
-										<a class="btn11" href="#">Read More<div class="transition"></div></a>
-										<a class="btn11" href="#">Contact<div class="transition"></div></a>
+										<!-- <a class="btn11" href="#">Read More<div class="transition"></div></a> -->
+										<a class="btn11" href="cnt.php">Contacto<div class="transition"></div></a>
 									</div>
 								</div>
 							</div>
@@ -134,8 +84,8 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>Linkweb</span> Web Agency</h1>
-									<h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2>
+                                <h1 class="homepage-three-title">Bienvenido a <span>TransLibra </span></h1>
+									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2> -->
 									<div class="slider-content-btn">
 										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
 										<a class="btn11" href="#"><span>Contact</span><div class="transition"></div></a>
@@ -152,8 +102,8 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>Linkweb</span> Web Agency</h1>
-									<h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services.</h2>
+                                <h1 class="homepage-three-title">Bienvenido a <span>TransLibra </span></h1>
+									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services.</h2> -->
 									<div class="slider-content-btn">
 										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
 										<a class="btn11" href="#"><span>Contact</span><div class="transition"></div></a>
@@ -167,96 +117,15 @@
 		</div>
 	</div>
 
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">
-                        <h4>About Us</h4>
-                        <h2>Welcome to Linkweb</h2>
-                        <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
-
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-
-                        <a class="btn11" href="#0"><span>Learn More</span><div class="transition"></div></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                        <img src="uploads/about_01.jpg" alt="" class="img-fluid img-rounded">
-                        <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class="hr1"> 
-
-            <div class="row">
-				<div class="col-md-6">
-                    <div class="message-box">
-                        <h2>Get best plans for Linkweb</h2>
-                        <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
-
-                        <ul>
-							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Donec eget est ut nulla tristique maximus quis a nisi.</li>
-							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Integer vel metus pretium, mollis quam id, dignissim leo.</li>
-						</ul>
-
-                        <a href="#" class="btn11"><span>Learn More</span><div class="transition"></div></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-				
-                <div class="col-md-6">
-                    <div class="message-box">
-                        <h2>We Are Linkweb</h2>
-                        <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
-
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-
-                        <a href="#" class="btn11"><span>Learn More</span><div class="transition"></div></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+    
 	
-	<div class="parallax section parallax-off" data-stellar-background-ratio="0.9" style="background-image:url('uploads/parallax_04.jpg');">
-        <div class="container">
-            <div class="row text-center stat-wrap">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-briefcase"></i></span>
-                    <p class="stat_count">1200</p>
-                    <h3 class="line-hv">Complated Projects</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-happy"></i></span>
-                    <p class="stat_count">3210</p>
-                    <h3 class="line-hv">Happy Clients</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-idea"></i></span>
-                    <p class="stat_count">3781</p>
-                    <h3 class="line-hv">Customer Services</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-customer-service"></i></span>
-                    <p class="stat_count">4300</p>
-                    <h3 class="line-hv">Answered Questions</h3>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+	
 
     <div id="services" class="parallax section lb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Our Service</h3>
-                <p class="lead">Our Service unlimited solutions to all your business needs. in the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</p>
+                <h3>Nuestros Servicios</h3>
+                <!-- <p class="lead">Our Service unlimited solutions to all your business needs. in the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</p> -->
             </div><!-- end title -->
 
             <div class="owl-services owl-carousel owl-theme">
@@ -266,8 +135,13 @@
                         <img src="uploads/service_01.jpg" alt="" class="img-fluid img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Smart Swatch Editions</h3>
-						<p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+						<h3>Recepción de carga aérea y maritima</h3>
+						<p>Tomamos su carga proveniente desde cualquier ciudad 
+                        De Estados Unidos, la cual es almacenada dentro 
+                        De nuestras instalaciones que cuentan con cámara de vigilancia 
+                        Las 24 hrs. Del día, para luego usted pueda definir según peso, medidas y/o 
+                        Urgencia el método de embarque. 
+                        </p>
 					</div>
                 </div>
                 <!-- end service -->
@@ -278,8 +152,11 @@
                         <img src="uploads/service_02.jpg" alt="" class="img-fluid img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Web UI Kit Design</h3>
-						<p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+						<h3>Cargas Peligrosas</h3>
+						<p>Nuestra bodega cuenta con los permisos necesarios 
+                        Para almacenar cargas de diferentes UN la cual 
+                        Tiene un espacio designado dentro de nuestra bodega. 
+                        </p>
 					</div>
                 </div>
                 <!-- end service -->
@@ -290,8 +167,12 @@
                         <img src="uploads/service_03.jpg" alt="" class="img-fluid img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Mobile Optimization</h3>
-						<p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+						<h3>Carga General</h3>
+						<p>Toda carga general puede ser transportada a Chile 
+                        Y por la vía que usted les sea más conveniente.
+                        La carga general tiene el mismo trato dentro de nuestra 
+                        Bodega al igual que si fuera una carga delicada. 
+                        </p>
 					</div>
                 </div>
                 <!-- end service -->
@@ -302,17 +183,156 @@
                         <img src="uploads/service_04.jpg" alt="" class="img-fluid img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Digital Design for Mac</h3>
-						<p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+						<h3>Carga sobredimensionada</h3>
+						<p>Toda carga sobredimensionada, debe ser informada 
+                        Antes de  hacerla llegar y así nuestra bodega esté preparada 
+                        De forma óptima para su recepción y almacenaje adecuado.
+                        Ya que muchas veces por el volumen de las cargas grande 
+                        Se debe habilitar un lugar específico dentro de nuestra 
+                        Bodega y así  esta pueda ser manejada por nuestro 
+                        Personal de forma  segura para ellos y su carga. 
+                        </p>
 					</div>
                 </div>
                 <!-- end service -->
-            </div><!-- end row -->
+            </div>
+            
+            
+            <div class="owl-services owl-carousel owl-theme">
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_01.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Cargas Valoradas</h3>
+						<p>Nuestra bodega cuenta con circuito cerrado de cámaras las 
+                            24 hrs. Al día, cabe señalar que cada uno de los clientes 
+                            Debe informar de forma correcta el tipo de producto 
+                            Que contiene su carga, para así poder dentro de la bodega
+                            Dar la ubicación correcta a este tipo de cargas.
+                            Que normalmente son puestas en Altura. 
+                            
+                        </p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_02.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Servicios de Pick Up</h3>
+						<p>Coordinamos retiros de fabrica con los 
+                            Proveedores que están dentro de Miami
+                            Y así hacer más expedito los retiros de sus orden 
+                            Donde su proveedor y poder disponer de su carga 
+                            En nuestra bodega de Miami dentro del día. 
+                            Esto se gestiona con camiones propios y choferes 
+                            De la misma bodega de Miami. 
+                            
+                        </p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_03.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Re - Embalajes</h3>
+						<p>Nuestra bodega puede re embalar sus cargas 
+                            Para hacer su embarque más seguro, cabe señalar 
+                            Que nosotros no abrimos cajas, solo empacamos 
+                            Cargas sobre pallet, e container, D conainer, enzunchamos 
+                            Pallet y así hacer un embalaje adecuado para que sus cargas 
+                            Puedan ser transportada de manera más segura según 
+                            El método de transporte de nuestros clientes elijan. 
+                            
+                        </p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_04.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Inlan en U.S.A</h3>
+						<p>Tenemos contrato con las mejores empresas de transporte 
+                            Dentro de Estados Unidos, para hacer los retiros de fábricas que no 
+                            Están dentro de Florida. Diferentes alternativas de Valores 
+                            Para que usted pueda elegir de acuerdo a precio y tiempo de transito 
+                            A nuestra bodega. 
+                            
+                        </p>
+					</div>
+                </div>
+                <!-- end service -->
+            </div>
+
+            <div class="owl-services owl-carousel owl-theme">
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_01.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Full Container</h3>
+						<p>Este servicio es para todo Estados unidos 
+                            Ya que por ser Full Container, es posible coordinar 
+                            Con sus proveedores que ellos mismo carguen su contenedor 
+                            Y así aminorar costo de carguío dentro de nuestra bodega, 
+                            Haciendo más económico los costos de transporte para usted. 
+                            
+                        </p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_02.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Consolidado</h3>
+						<p>Consolidamos sus cargas 
+                            En nuestras bodegas para LCL (carga suelta)
+                            Y Cargas general,Sobredimensionadas y delicadas.
+                            Principalmente en Estado Unidos es permitido
+                            Juntar varios proveedores y hacer un Solo 
+                            B/L (Bill of Lading) 
+                            Reduciendo considerablemente costos en 
+                            Destino de Almacenaje, Aduana y otros gastos.
+                             
+                            
+                        </p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                
+                <!-- end service -->
+
+              
+                <!-- end service -->
+            </div>
+
+            
+            <!-- end row -->
+            
 
             <hr class="hr1">
 
             <div class="text-center">
-                <a href="#" class="btn11"><span>View Our Portfolio</span></a>
+                <!-- <a href="#" class="btn11"><span>View Our Portfolio</span></a> -->
             </div>
         </div><!-- end container -->
     </div><!-- end section -->
@@ -424,86 +444,16 @@
     <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.png');">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Testimonials</h3>
-                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Linkweb website template!</p>
+                <h3>Testiomonios</h3>
+                <!-- <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Linkweb website template!</p> -->
             </div><!-- end title -->
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="testi-carousel owl-carousel owl-theme">
-                        <div class="testimonial clearfix">
-							
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <h4>Jacques Philips <small>- Designer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">                                
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">                                
-                                <h4>Jacques Philips <small>- Designer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">                                
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div><!-- end testimonial -->
-                    </div><!-- end carousel -->
-                </div><!-- end col -->
-            </div><!-- end row -->
+            <?php
+            
+            include ("testimonios.php");
+            
+            ?>
+            <!-- end row -->
 
             <hr class="hr1">
 
@@ -537,7 +487,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <img src="images/logos/logo-2.png" alt="" />
+                            <img src="images/logot.png" width="180" height="62" />
                         </div>
                         <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>                        
                     </div><!-- end clearfix -->

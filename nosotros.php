@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Linkweb - Responsive HTML5 Template</title>  
+    <title>Translibra</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icono.PNG" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -51,7 +51,7 @@
     </div><!-- end loader -->
     <!-- END LOADER -->
     
-	<div class="top-bar">
+	<!-- <div class="top-bar">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
@@ -79,8 +79,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-    <header class="header header_style_01">
+	</div> -->
+    <!-- <header class="header header_style_01">
         <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <div class="navbar-header">
@@ -106,18 +106,18 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header> -->
+<?php
 
+include ("navbar.php");
+
+?>
    	<div class="banner-area banner-bg-1">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="banner">
-						<h2><span>About Us</span></h2>
-						<ul class="page-title-link">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About Us</a></li>
-						</ul>
+						<h2><span>Nuestra Historia</span></h2>
 					</div>
 				</div>
 			</div>
@@ -129,8 +129,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="message-box">
-                        <h4>About Us</h4>
-                        <h2>Welcome to Linkweb</h2>
+                        <h2>Nuestra Historia</h2>
                         <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
 
                         <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
