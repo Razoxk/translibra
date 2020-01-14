@@ -66,7 +66,7 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Bienvenido a <span>TransLibra </span></h1>
+									<h1 class="homepage-three-title">Carga <span>Aérea </span></h1>
 									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2> -->
 									<div class="slider-content-btn">
 										<!-- <a class="btn11" href="#">Read More<div class="transition"></div></a> -->
@@ -84,7 +84,7 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-                                <h1 class="homepage-three-title">Bienvenido a <span>TransLibra </span></h1>
+                                <h1 class="homepage-three-title">Carga <span>Terrestre </span></h1>
 									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2> -->
 									<div class="slider-content-btn">
 										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
@@ -102,7 +102,7 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-                                <h1 class="homepage-three-title">Bienvenido a <span>TransLibra </span></h1>
+                                <h1 class="homepage-three-title">Carga <span>Maritima </span></h1>
 									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services.</h2> -->
 									<div class="slider-content-btn">
 										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>

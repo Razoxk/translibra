@@ -45,11 +45,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li><a href="index.php">Inicio</a></li>
 						<li><a href="nosotros.php">Nosotros</a></li>
-						<li><a href="cnt.php">Contacto</a></li>        
-						<li><a href="cnt.php">Contacto</a></li>
-						<li><a href="cnt.php">Contacto</a></li>   
-						<li><a href="cnt.php">Contacto</a></li>
-						<li><a href="cnt.php">Contacto</a></li>                   
+						<li><a href="cnt.php">Contacto</a></li>                         
                     </ul>
                 </div>
             </div>
