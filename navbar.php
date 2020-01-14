@@ -8,7 +8,7 @@
 								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
 
 								<!-- HOLA MUNDO -->
@@ -21,15 +21,15 @@
 						<div class="email-box">
 							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>contacto@translibra.cl</a>
 						</div>
-						<!--<div class="phone-box">
+						<div class="phone-box">
 							<a href="tel:1234567890"><i class="fa fa-phone"   aria-hidden ="true"></i> +56 9 98373147</a>
-						</div>-->
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-<header class="header header_style_01"">
+<header class="header header_style_01">
         <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <div class="navbar-header">
