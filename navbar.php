@@ -21,9 +21,9 @@
 						<div class="email-box">
 							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>contacto@translibra.cl</a>
 						</div>
-						<div class="phone-box">
-							<a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> +56 9 98373147</a>
-						</div>
+						<!--<div class="phone-box">
+							<a href="tel:1234567890"><i class="fa fa-phone"   aria-hidden ="true"></i> +56 9 98373147</a>
+						</div>-->
 					</div>
 				</div>
 			</div>
