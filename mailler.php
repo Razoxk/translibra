@@ -16,15 +16,15 @@
   $mail->PluginDir = "PHPMailer/";
   $mail->Mailer = "smtp";
 //  $mail->Host = "mail.entrevistradetrabajochile.cl"; <--MALO
-  $mail->Host = "webmail.tecnotec.cl";
+  $mail->Host = "mail.translibra.cl";
   $mail->SMTPAuth = true;
-  $mail->Username = "porellana@tecnotec.cl"; 
-  $mail->Password = "Tecno.2019!";
-  $mail->From = "porellana@tecnotec.cl";
-  $mail->FromName = "porellana Web Entrevista de Trabajo Chile";
+  $mail->Username = "contacto@translibra.cl"; 
+  $mail->Password = "trans@2019!";
+  $mail->From = "contacto@translibra.cl";
+  $mail->FromName = "Web Translibra.cl";
   $mail->Timeout=5;
 
-  $mail->AddAddress("porellana@tecnotec.cl");
+  $mail->AddAddress("contacto@translibra.cl");
 //  $mail->AddCC($_POST['email']);
   $mail->Subject = "Web TransLibra";
   $mail->Body = "
