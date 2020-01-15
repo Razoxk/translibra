@@ -87,8 +87,8 @@
                                 <h1 class="homepage-three-title">Carga <span>Terrestre </span></h1>
 									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services. </h2> -->
 									<div class="slider-content-btn">
-										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
-										<a class="btn11" href="#"><span>Contact</span><div class="transition"></div></a>
+										<a class="btn11" href="#"><span>Leer más</span><div class="transition"></div></a>
+										<a class="btn11" href="#"><span>Contacto</span><div class="transition"></div></a>
 									</div>
 								</div>
 							</div>
@@ -105,8 +105,8 @@
                                 <h1 class="homepage-three-title">Carga <span>Maritima </span></h1>
 									<!-- <h2>With Linkweb responsive landing page template, <br>you can promote your all web design & development services.</h2> -->
 									<div class="slider-content-btn">
-										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
-										<a class="btn11" href="#"><span>Contact</span><div class="transition"></div></a>
+										<a class="btn11" href="#"><span>Leer más</span><div class="transition"></div></a>
+										<a class="btn11" href="#"><span>Contacto</span><div class="transition"></div></a>
 									</div>
 								</div>
 							</div>

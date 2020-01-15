@@ -58,8 +58,8 @@ include ("navbar.php");
     <div id="contact" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Get in touch</h3>
-                <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>We have million of website owners who happy to work with us!</p>
+                <h3>Póngase en Contacto <br> Escríbanos!</h3>
+                <p class="lead">Permítanos brindarle más detalles sobre el sitio web de ofertas especiales que desea. Por favor, rellene el siguiente formulario. <br>¡Tenemos millones de propietarios de sitios web que están felices de trabajar con nosotros!</p>
             </div><!-- end title -->
 
             
@@ -85,25 +85,25 @@ include ("navbar.php");
 						<div class="address-icon">
 							<i class="icon icon-location2"></i>
 						</div>
-						<h3>Headquarters</h3>
-						<p>PO Box 16122 Collins Street West 
-							<br> Victoria 8007 Australia</p>
+						<h3>Sede</h3>
+						<p>Maria Luisa Santander 468 oficina 212 
+							<br> providencia – Santiago</p>
 					</div>
 					<div class="address-item">
 						<div class="address-icon">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</div>
-						<h3>Email Us</h3>
-						<p>info@yoursite.com
-							<br>info@yoursite.com</p>
+						<h3>Correo</h3>
+						<p>contacto@translibra.cl
+							
 					</div>
 					<div class="address-item">
 						<div class="address-icon">
 							<i class="icon icon-headphones"></i>
 						</div>
-						<h3>Call Us</h3>
-						<p>+61 3 8376 6284
-							<br>+61 3 8376 6185</p>
+						<h3>Llámanos</h3>
+						<p>+569 9837 3147
+							
 					</div>
 				</div>
 			</div><!-- end row -->
@@ -111,89 +111,7 @@ include ("navbar.php");
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <img src="images/logos/logo-2.png" alt="" />
-                        </div>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>                        
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-
-				<div class="col-md-6 col-lg-3">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Useful links</h3>
-                        </div>
-
-                        <ul class="footer-links hov">
-                            <li><a href="#">Home <span class="icon icon-arrow-right2"></span></a></li>
-							<li><a href="#">Blog <span class="icon icon-arrow-right2"></span></a></li>
-							<li><a href="#">Pricing <span class="icon icon-arrow-right2"></span></a></li>
-							<li><a href="#">About <span class="icon icon-arrow-right2"></span></a></li>
-							<li><a href="#">Faq <span class="icon icon-arrow-right2"></span></a></li>
-							<li><a href="#">Contact <span class="icon icon-arrow-right2"></span></a></li>
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-				
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-recent clearfix">
-                        <div class="widget-title">
-                            <h3>Recent posts</h3>
-                        </div>
-						
-						<ul>
-							<li>
-								<i class="fa fa-user" aria-hidden="true"></i>
-								<span>Posted By : Ahmed Rubel</span>
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-								<span> Time : 1.30 Am</span>
-								<h2>Etiam dignissim augue a commodo</h2>
-							</li>
-							<li>
-								<i class="fa fa-user" aria-hidden="true"></i>
-								<span>Posted By : Ahmed Rubel</span>
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-								<span> Time : 1.30 Am</span>
-								<h2>Etiam dignissim augue a commodo</h2>
-							</li>
-							<li>
-								<i class="fa fa-user" aria-hidden="true"></i>
-								<span>Posted By : Ahmed Rubel</span>
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-								<span> Time : 1.30 Am</span>
-								<h2>Etiam dignissim augue a commodo</h2>
-							</li>
-						</ul>
-						                       
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-				<div class="col-md-6 col-lg-3">
-					<div class="widget footer-contact clearfix">
-						<div class="widget-title">
-                            <h3>Contact Us</h3>
-                        </div>
-						
-						<ul>
-							<li>Address: PO Box 16122 Collins Street West Victoria 8007 Australia</li>
-							<li>Phone: <a href="#">+62 3 8376 8080  </a></li>
-							<li>Email: <a href="#">info@yoursite.com </a></li>
-						</ul>
-						<ul class="social-list">
-							<li><a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="https://plus.google.com/" class="googlePlus"><i class="fa fa-google-plus"></i></a></li>
-						</ul>
-						
-					</div>
-				</div>
-				
+ 
 				
 				
             </div><!-- end row -->
