@@ -220,8 +220,8 @@
 
                 <div class="service-widget">
                     <div class="post-media wow fadeIn">
-                        <a href="uploads/service_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="uploads/service_02.jpg" alt="" class="img-fluid img-rounded">
+                        <a href="uploads/pickup.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/pickup.jpg" alt="" class="img-fluid img-rounded">
                     </div>
 					<div class="service-dit">
 						<h3>Servicios de Pick Up</h3>
