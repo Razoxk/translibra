@@ -200,13 +200,17 @@ include ("navbar.php");
         </div><!-- end container -->
     </footer><!-- end footer -->
 
-    <div class="copyrights">
+    <!--<div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
                     <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Linkweb</a> Design By : 
 					<a href="https://html.design/">html design</a></p>
-                </div>
+                </div>-->
+                
+     <?php
+     include ("footer.php");
+     ?>
 
                 
             </div>

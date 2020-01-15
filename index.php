@@ -337,31 +337,7 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <div class="parallax section noover" data-stellar-background-ratio="0.7" style="background-image:url('uploads/parallax_05.png');">
-        <div class="container">
-            <div class="row text-center align-items-center">
-                <div class="col-md-6">
-                    <div class="customwidget text-left">
-                        <h1>Linkweb Websites</h1>
-                        <p>Full access control of the background parallax effects, <br>change your awesome background elements and edit colors from style.css or colors.css</p>
-                        <ul class="list-inline">
-                            <li><i class="fa fa-check"></i> Custom Sections</li>
-                            <li><i class="fa fa-check"></i> Parallax's</li>
-                            <li><i class="fa fa-check"></i> Icons & PSD</li>
-                            <li><i class="fa fa-check"></i> Limitless Colors</li>
-                        </ul><!-- end list -->
-                        <a href="#" class="btn11"><span>Learn More</span></a>
-                    </div>
-                </div><!-- end col -->
-				<div class="col-md-6">
-                    <div class="text-center image-center hidden-sm hidden-xs">
-                        <img src="uploads/device_03.png" alt="" class="img-fluid wow fadeInUp">
-                    </div>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
+    
     
                 
 
