@@ -387,10 +387,10 @@
     </div><!-- end section -->
 
    <?php
-     include("footer.php");
+     include ("footer.php");
 ?>
 
-    <div class="copyrights">
+    <!-- <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
@@ -400,8 +400,8 @@
 
                 
             </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
+        </div>
+    </div> -->
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
